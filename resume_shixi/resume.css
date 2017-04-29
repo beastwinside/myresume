@@ -170,7 +170,7 @@
 	}
 
 	#con_left{
-		width: 40%;
+		width: 45%;
 		height: 2500px;
 		position: absolute;
 		left: 0;
@@ -199,7 +199,7 @@
 
 	#con_left h3{
 		font-size: 25px;
-		text-indent: 60px;
+		text-indent: 40px;
 		background-color: #302C2C;
 		width: 80%;
 		border-top-right-radius: 15px;
@@ -209,17 +209,27 @@
 	}
 
 	h3#cet-4{
-		width: 355px;
+		width: 399px;
+		height: 35px;
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
+		margin-bottom: 10px;
+	}
+
+	h3#cet-6{
+		width: 347px;
 		height: 35px;
 		border-bottom-right-radius: 20px;
 		border-top-right-radius: 20px;
 	}
 
-	h3#cet-6{
-		width: 309px;
+	h3#job-exp{
+		
 		height: 35px;
-		border-bottom-right-radius: 20px;
-		border-top-right-radius: 20px;
+		width: 240px;
+		color: #FFB1B1;
+		margin-bottom: 10px;
+
 	}
 
 	
@@ -240,8 +250,9 @@
 	}
 
 	#con_right{
-		width: 40%;
+		width: 45%;
 		height: 2500px;
+		font-size: 100px;
 		position: absolute;
 		right: 0;
 		top: 0;
