@@ -37,6 +37,7 @@
 			border-right-style: solid;
 			border-left-style: solid;
 			border-top-style: solid;
+			border-color: #5F4015;
 			margin-top: 2px;
 			
 
@@ -62,7 +63,7 @@
 			margin: auto;
 			background-color: #1C6C40;
 			margin-bottom: 50px;
-			border-color: black;
+			border-color: #4C310A;
 			
 			text-align: left;
 
@@ -78,8 +79,8 @@
 			bottom: 0;
 			margin: auto;
 			left: 1%;
-			border-style: solid;
 			
+			box-shadow: 2px 2px 5px 5px #3C3A3A;
 			background-size: cover;
 			border-radius: 30px;
 		}
@@ -94,6 +95,7 @@
 			border-style: solid;
 			left: 15%;
 			top: 5%;
+
 
 		}
 
@@ -175,9 +177,12 @@
 		top: 0;
 		border-right-style: solid;
 		font-family:黑体;
+}
 
-
+	#con_left p{
+	margin-bottom: 20px;
 	}
+	
 
 
 	#con_left h1{
@@ -199,13 +204,39 @@
 		width: 80%;
 		border-top-right-radius: 15px;
 		border-bottom-right-radius: 15px;
+		margin-bottom: 5px;
 
 	}
+
+	h3#cet-4{
+		width: 355px;
+		height: 35px;
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+
+	h3#cet-6{
+		width: 309px;
+		height: 35px;
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+
+	
 
 	#con_left h4{
 		font-size: 30px;
 		text-indent: 80px;
 
+	}
+
+	#con_left span{
+		font-size: 25px;
+	}
+
+	#con_left h5{
+		font-size: 18px;
+		text-indent: 60px;
 	}
 
 	#con_right{
