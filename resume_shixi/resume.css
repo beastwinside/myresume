@@ -52,7 +52,7 @@ header div{
 }
 #container{
 	width: 1200px;
-	height: 2600px;
+	height: 1350px;
 	position: relative;
 	border-right-style: solid;
 	border-left-style: solid;
@@ -171,7 +171,7 @@ header div{
 
 #con_left{
 	width: 45%;
-	height: 2450px;
+	height: 1350px;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -330,7 +330,7 @@ h3#job-exp{
 
 #con_right{
 	width: 45%;
-	height: 2200px;
+	height: 1320px;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -340,7 +340,7 @@ h3#job-exp{
 }
 
 #con_right p{
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 	font-size: 20px;
 }
 
