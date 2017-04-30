@@ -52,7 +52,7 @@ header div{
 }
 #container{
 	width: 1200px;
-	height: 2500px;
+	height: 2600px;
 	position: relative;
 	border-right-style: solid;
 	border-left-style: solid;
@@ -171,7 +171,7 @@ header div{
 
 #con_left{
 	width: 45%;
-	height: 2500px;
+	height: 2350px;
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -331,12 +331,139 @@ h3#job-exp{
 #con_right{
 	width: 45%;
 	height: 2500px;
-	font-size: 100px;
 	position: absolute;
 	right: 0;
 	top: 0;
 	border-left-style: solid;
-
+	font-family:黑体;
 
 }
 
+#con_right p{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+
+
+#con_right h1{
+	font-size: 45px;
+	text-indent: 0.5em;
+}
+
+#con_right h2{
+	font-size: 20px;
+	font-family: 行楷;
+	text-indent: 40px;
+	color: #211B1B;
+}
+
+#con_right h3{
+	font-size: 30px;
+	text-indent: 40px;
+	background-color: #302C2C;
+	width: 80%;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-bottom: 5px;
+
+}
+
+
+
+
+
+
+#con_right h4{
+	font-size: 30px;
+	text-indent: 40px;
+
+}
+
+#con_right span{
+	font-size: 25px;
+}
+
+#con_right h5{
+	font-size: 18px;
+	text-indent: 65px;
+}
+#con_right h5#not{
+	color: #9c2601;
+}
+
+#con_right h6{
+	font-size: 20px;
+	text-indent: 40px;
+	background-color: #302C2C;
+	width: 80%;
+	margin-right: 50px; 
+	margin-bottom: 10px;
+	border-radius: 15px;
+	font-weight: normal;
+	padding: 10px;
+
+}
+
+#con_right i{
+	font-style: normal;
+	color: #66d9ef;
+}
+
+#con_right i.not_finish{
+	color: #fefcd5;
+}
+
+#con_right em{
+	font-style: normal;
+	color: #7fe22e;
+	font-family: 黑体;
+}
+
+
+
+#con_right form{
+	height: 40px;
+	width: 70%;
+
+	position: relative;
+	right: 10px;
+	margin-bottom: 20px;
+}
+
+#con_right form a{
+	font-size: 22px;
+	color: #32EDED;
+
+}
+
+#con_right form a:hover{
+	text-decoration: none;
+
+}
+
+#con_right div{
+	border-style: none;
+	height: 100%;
+	font-size: 25px;
+	width: 70px;
+	margin-left: 30px;
+	margin-right: -25px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	text-align: center;
+	background-color: #302c2c;
+	color: #32EDED;
+	float: left;
+}
+
+#con_left div:hover{
+
+	height: 110%;
+	width: 77px;
+	transition-property: height width;
+	transition-duration: 0.5s;
+}
